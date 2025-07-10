@@ -1,0 +1,48 @@
+/* 
+SkyPage
+---------- TYPOGRAPHY ----------
+FONT-SIZES:
+12px / 16px / 20px / 24px / 32px / 48px
+
+LINE-HEIGHTS:   
+1.2 / 1.5
+
+LETTER-SPACING:
+0 / -2PX
+
+FONT-FMILY
+'Poppins'
+
+
+---------- COLOURS ----------
+PRIMARY 
+Base: #00AEEF (Sky Blue)
+Tint: #B3EFFF (Soft Sky)
+Shade: #007BA7 (Deep Sky)
+
+SECONDARY
+Base: #283593 (Deep Indigo)
+Tint: #9FA8DA (Lavender Mist)
+Shade: #1A237E (Night Indigo)
+
+TERTIARY
+Base: #FFD54F (Soft Yellow)
+Tint: #FFF8E1 (Cream Mist)
+Shade: #FBC02D (Golden Amber)
+
+GREY
+Base: #495057 (Slate)
+Tint: #F1F3F5 (Pebble)
+Shade: #212529 (Graphite)
+
+
+*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
