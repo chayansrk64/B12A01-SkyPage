@@ -46,3 +46,31 @@ Shade: #212529 (Graphite)
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-base: #00AEEF;
+    --primary-tint: #B3EFFF;
+    --primary-shade: #007BA7;
+
+    --secondary-base: #283593;
+    --secondary-tint: #9FA8DA;
+    --secondary-shade: #1A237E;
+
+    --tertiary-base: #FFD54F;
+    --tertiary-tint: #FFF8E1;
+    --tertiary-shade: #FBC02D;
+
+    --grey-base: #495057;
+    --grey-tint: #F1F3F5;
+    --grey-shade: #212529;
+
+    font-family: "Quicksand", sans-serif;
+}
+
+/* google fonts */
+
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
