@@ -122,8 +122,8 @@ body{
     min-height: 698px;
 }
 .logo{
-    font-size: 20px;
-     
+    font-size: 34px;
+    color: var(--primary-base);
 }
  
 .nav {
@@ -135,6 +135,7 @@ body{
 nav ul {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     list-style: none;
 }
 nav ul li {
@@ -334,10 +335,11 @@ input[type='submit']{
     padding: 100px 0;
     background: var(--grey-tint);
 }
-.footer-container img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.footer-container .title{
+    font-size: 100px;
+    color: var(--grey-shade) ;
+    text-decoration: none;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -351,5 +353,6 @@ input[type='submit']{
 }
 .footer-links li a{
     text-decoration: none;
-    color: var(--secondary-base);
+    color: var(--grey-shade);
+    font-weight: 600;
 }
