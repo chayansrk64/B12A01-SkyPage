@@ -258,3 +258,23 @@ nav li a{
     transform: scale(1.02);
 }
 
+/* get-started-container */
+
+.get-started-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background: var(--grey-tint);
+    padding: 50px 0;
+    border-radius: 20px;
+}
+.get-started-container h2{
+    font-size: 50px;
+    color: var(--grey-shade);
+}
+.get-started-container img{
+    border-radius: 40px;
+}
+
