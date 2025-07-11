@@ -171,4 +171,39 @@ nav li a{
 }
 
 
+/* user section */
+.user{
+    background-color: var(--secondary-tint);
+    border-radius: 20px;
+    
+}
+.user-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 142px;
+}
+.user-stats{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.user-heading h2{
+    font-size: 38px;
+    color: var(--grey-shade);
+    
+}
+.user-stats h2{
+    font-size: 80px;
+}
+.user-stats p{
+    text-align: center;
+    background: var(--tertiary-tint);
+    border-radius: 10%;
+    margin-bottom: 25px;
+    
+}
+
 
