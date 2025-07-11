@@ -207,3 +207,54 @@ nav li a{
 }
 
 
+
+/* feedback section */
+.feedback-heading{
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.feedback-container{
+    display: flex;
+    gap: 24px ;
+}
+
+.feedback-card{
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+     transition: transform 0.3s ease;
+}
+.feedback-card h4{
+    font-size: 24px;
+    color: var(--grey-shade);
+    margin: 20px 0;
+}
+.feedback-card p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--grey-base);
+    margin-bottom: 20px;
+    
+}
+.feedback-user{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.feedback-user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.feedback-user div h5{
+    font-size: 16px;
+    color: var(--grey-shade);
+}
+.feedback-user div p{
+    background: var(--tertiary-base);
+}
+.feedback-card:hover {
+    transform: scale(1.02);
+}
+
