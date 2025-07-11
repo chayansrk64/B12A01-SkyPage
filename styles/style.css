@@ -5,9 +5,9 @@
 }
 
 :root {
-    /* --primary-base: #00AEEF;
-    --primary-tint: #c5f3ff;
-    --primary-shade: #007BA7; */
+    /* --secondary-base: #00AEEF;
+    --secondary-tint: #c5f3ff;
+    --secondary-shade: #007BA7; */
 
     --primary-base: #303b8d;
     --primary-tint: #c7cadb;
@@ -41,21 +41,55 @@
     max-width: 1440px;
     margin: 0 auto;
 }
-.btn-primary{
+
+
+
+
+
+/* .btn-primary{
     background-color: var(--primary-shade);
-    color: var(--grey-tint);
+    border: 0;
+    color: white;
     padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
+    transition: transform 200ms ease-in;
+    
 }
+
+.btn-primary:hover{
+    background-color: var(--tertiary-base);
+    transform: scaleX(1);
+    color: var(--primary-base);
+} */
+
+.btn-primary {
+    background: linear-gradient(to right, var(--primary-base) 0%, var(--primary-shade) 100%);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 1px solid var(--primary-base);
+    color: var(--primary-shade);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-size 0.5s ease-in-out, color 0.5s ease;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
 .btn-primary:hover {
-  background-color: var(--primary-base);
+    background-size: 100% 100%;
+    color: white;
 }
+
 .section {
     max-width: 1140px;
-    /* min-height: 328px; */
     margin: 116px auto;
 }
 
@@ -64,7 +98,6 @@
     width: 100%;
     margin-bottom: 10px;
     border-radius: 10px;
-    /* background-color:#f5f8ff; */
     background: var(--grey-tint);
     border: none;
 }
@@ -142,8 +175,18 @@ nav li a{
     color: var(--grey-base);
     padding: 24px 0 42px 0;
 }
+.preview-image{
+    overflow: hidden;
+    border-radius: 40px;
+}
 .preview-image img{
     border-radius: 40px;
+    transition: transform 0.3s ease;
+}
+.preview-image img:hover{
+    transform: scale(1.02);
+    
+    
 }
 
 
@@ -278,7 +321,7 @@ nav li a{
     font-size: 97px;
 }
 input[type='submit']{
-    border: none;
+     border: 1px solid var(--primary-base);
     cursor: pointer;
     width: 100%;
 }
