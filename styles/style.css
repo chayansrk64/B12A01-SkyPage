@@ -65,8 +65,7 @@ Shade: #212529 (Graphite)
     --grey-shade: #212529;
 
 
-    --input-padding: 16px;
-    --input-width: 100%;
+    
 
     font-family: "Quicksand", sans-serif;
 }
@@ -104,8 +103,8 @@ Shade: #212529 (Graphite)
 }
 
 .form-styles{
-    padding: var(--input-padding);
-    width: var(--input-width);
+    padding: 16px;
+    width: 100%;
     margin-bottom: 10px;
     border-radius: 10px;
 }
@@ -125,10 +124,18 @@ body{
 .logo{
     font-size: 20px;
 }
+.logo-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+}
 .nav {
     max-width: 1140px;
     margin: 0 auto;
+    position: sticky;
 }
+
 nav ul {
     display: flex;
     justify-content: flex-end;
@@ -331,8 +338,10 @@ input[type='submit']{
     padding: 100px 0;
     background: var(--grey-tint);
 }
-.footer-container h1{
-    font-size: 100px;
+.footer-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     margin-bottom: 20px;
 }
 
