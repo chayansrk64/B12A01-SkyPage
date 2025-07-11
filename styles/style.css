@@ -78,7 +78,7 @@ Shade: #212529 (Graphite)
 
 /* shared class start*/
 .section-width{
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .btn-primary{
@@ -92,6 +92,11 @@ Shade: #212529 (Graphite)
 }
 .btn-primary:hover {
   background-color: var(--primary-shade);
+}
+.section {
+    max-width: 1140px;
+    /* min-height: 328px; */
+    margin: 116px auto;
 }
 /* shared class end */
 
@@ -107,6 +112,10 @@ body{
 }
 .logo{
     font-size: 20px;
+}
+.nav {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 nav ul {
     display: flex;
@@ -139,6 +148,27 @@ nav li a{
     min-height: 500px;
 }
 
+/* preview section  */
+
+.preview-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    min-height: 328px;
+   
+}
+.preview-content h2{
+    font-size: 32px;
+    color: var(--grey-shade);
+}
+.preview-content p{
+    font-size: 20px;
+    color: var(--grey-base);
+    padding: 24px 0 42px 0;
+}
+.preview-image img{
+    border-radius: 40px;
+}
 
 
 
