@@ -64,6 +64,10 @@ Shade: #212529 (Graphite)
     --grey-tint: #F1F3F5;
     --grey-shade: #212529;
 
+
+    --input-padding: 16px;
+    --input-width: 100%;
+
     font-family: "Quicksand", sans-serif;
 }
 
@@ -98,6 +102,14 @@ Shade: #212529 (Graphite)
     /* min-height: 328px; */
     margin: 116px auto;
 }
+
+.form-styles{
+    padding: var(--input-padding);
+    width: var(--input-width);
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
 /* shared class end */
 
 
@@ -278,3 +290,25 @@ nav li a{
     border-radius: 40px;
 }
 
+
+/*  mail section */
+.mail-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-container{
+    width: 60%;
+}
+.mail-container div h1{
+    font-size: 97px;
+}
+input[type='submit']{
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.label-style{
+    font-weight: 600;
+}
